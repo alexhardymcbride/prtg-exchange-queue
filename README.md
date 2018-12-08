@@ -7,7 +7,7 @@ You can find out more about PRTG here: https://www.paessler.com/prtg.
 ## Usage
 
 To use this script with your PRTG installation, follow these steps:
-1. Save this script in the %installdir%\Custom Sensors\EXEXML\ directory on your monitoring probe.
+1. Save the script file "exchangequeue.ps1" in the %installdir%\Custom Sensors\EXEXML\ directory on your monitoring probe.
 2. Set the Powershell (x86) ExecutionPolicy setting to RemoteSigned on the probe server.
 2. On your exchange server device in PRTG, add a new "EXE/Script Advanced" sensor.
 3. From the EXE/Script dropdown, choose "exchangequeue.ps1".
